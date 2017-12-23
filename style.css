@@ -11,19 +11,50 @@ html {
     font-size: 20px;
 }
 
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background.jpeg);
     background-size: cover;
     height: 100vh;
 }
 
+/*-----NAVIGATION-----*/
+.logo {
+    float: left;
+    left: 10%;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.main-nav {
+    margin-top: 30px;
+    float: right;
+    list-style-type: none;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 15px;
+}
 
 /*----- TEXT -----*/
 .text-box {
     position: absolute;
     width: 1140px;
-    top: 40%;
-    left: 10%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-transform: uppercase;
     word-spacing: 4px;
     letter-spacing: 1px;
