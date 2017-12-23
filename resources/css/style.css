@@ -86,15 +86,39 @@ header {
     list-style-type: none;
 }
 
-.main-nav li {
-    display: inline-block;
-}
-
 .main-nav a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     padding: 20px 15px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    transition: all 0.2s;
+}
+
+.main-nav a:hover {
+    color: #999;
+}
+
+.dropdown {
+    position: relative;
+    padding: 0;
+}
+
+.dropdown-submenu {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.dropdown-submenu li {
+    display: block;
+    padding: 10px 0;
 }
 
 /*----- TEXT -----*/
