@@ -40,9 +40,13 @@ header {
     list-style-type: none;
 }
 
-.ikon {
+.icon {
     color: #888;
     text-decoration: none;
+}
+
+.icon:hover {
+    color: #ACABAB;
 }
 
 /*--- RIGHT SIDE ---*/
